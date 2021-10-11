@@ -47,7 +47,7 @@ module Data.FingerTree (
 #if TESTING
     FingerTree(..), Digit(..), Node(..), deep, node2, node3,
 #else
-    FingerTree(..), Node(..),
+    FingerTree(..), Node(..), Digit(..),
 #endif
     Measured(..),
     -- * Construction
