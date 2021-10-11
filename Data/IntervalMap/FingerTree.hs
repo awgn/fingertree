@@ -38,7 +38,7 @@
 
 module Data.IntervalMap.FingerTree (
     -- * Intervals
-    Interval(..), low, high, point,
+    Interval(..), Node(..), low, high, point,
     -- * Interval maps
     IntervalMap, empty, singleton, insert, union,
     -- * Searching
